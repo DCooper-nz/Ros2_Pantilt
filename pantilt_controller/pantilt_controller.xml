@@ -1,0 +1,10 @@
+<library path="pantilt_controller">
+    <class name="pantilt_controller/PanTiltInterface"
+      type="pantilt_controller::PanTiltInterface"
+      base_class_type="hardware_interface::SystemInterface"
+    >
+      <description>
+        PanTilt Hardware Interface
+      </description>
+    </class>
+  </library>
