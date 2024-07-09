@@ -10,28 +10,28 @@
     <link name="camera_link">
         <visual>
             <geometry>
-                <box size=".01 .04 .04"/>
+                <box size="0.01 0.04 0.04"/>
             </geometry>
             <material name="white"/>
         </visual>
-<!--         <collision>
+        <collision>
            <geometry>
-                <box size="0.010 0.03 0.03"/>
+                <box size="0.01 0.04 0.04"/>
             </geometry>          
-        </collision> -->
+        </collision> 
         <visual>
-            <origin xyz="0 0 0 .025"/>
+            <origin xyz="0 0 0.025"/>
             <geometry>
                 <cylinder radius="0.002" length="0.01"/>
             </geometry>
             <material name="white"/>
         </visual>
-<!--          <collision>
-            <origin xyz="0 0 -0.05"/>
+        <collision>
+            <origin xyz="0 0 0.025"/>
            <geometry>
-                 <cylinder radius="0.002" length="0.1"/>
+                 <cylinder radius="0.002" length="0.01"/>
             </geometry>          
-        </collision>  -->      
+        </collision>     
     </link>
 
 
